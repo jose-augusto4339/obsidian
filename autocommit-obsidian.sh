@@ -1,5 +1,9 @@
 #!/bin/bash
 
+DIRETORIO_OBSIDIAN=/home/aml/Documentos/obsidian
+
+cd $DIRETORIO_OBSIDIAN
+
 echo "Iniciando commit!"
 
 echo "Os seguintes arquivos serao adicionados no stage:"
