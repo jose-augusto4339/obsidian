@@ -1,34 +1,11 @@
 Iniciando commit!
 Os seguintes arquivos serao adicionados no stage:
-fatal: not a git repository (or any of the parent directories): .git
-
-fatal: not a git repository (or any of the parent directories): .git
-Relizando commit...
-fatal: not a git repository (or any of the parent directories): .git
-Realizando push para o repositorio...
-fatal: not a git repository (or any of the parent directories): .git
-
-Iniciando commit!
-Os seguintes arquivos serao adicionados no stage:
 No ramo master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
   (utilize "git add <arquivo>..." para atualizar o que será submetido)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   .obsidian/workspace.json
-	modified:   Build Multi-Container Applications with Docker.md
-	modified:   autocommit-obsidian.sh
-
-Arquivos não monitorados:
-  (utilize "git add <arquivo>..." para incluir o que será submetido)
-	Dcoker Compose - Elegant Multi-Container Orchestration.md
-	auto_commit.log
+	modified:   auto_commit.log
 
 nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
-Relizando commit...
-[master cde8889] 2025-07-13
- 5 files changed, 89 insertions(+), 3 deletions(-)
- create mode 100644 Dcoker Compose - Elegant Multi-Container Orchestration.md
- create mode 100644 auto_commit.log
-Realizando push para o repositorio...
