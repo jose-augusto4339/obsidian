@@ -2,7 +2,7 @@
 
 DIRETORIO_OBSIDIAN=/home/aml/Documentos/obsidian
 
-if find "$DIRETORIO_OBSIDIAN" -type f -newermt "$(date +%Y-%m-%d)" -type f ! -name "*.log" | grep -q .;
+if find "$DIRETORIO_OBSIDIAN" -type f -newermt "$(date +%Y-%m-%d)" ! -name "*.log" | grep -q .;
 	then
 
 		cd $DIRETORIO_OBSIDIAN
