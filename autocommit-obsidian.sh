@@ -2,27 +2,35 @@
 
 DIRETORIO_OBSIDIAN=/home/aml/Documentos/obsidian
 
-cd $DIRETORIO_OBSIDIAN
+if find "$DIRETORIO_OBSIDIAN" -type f -newermt "$(date +%Y-%m-%d)" | grep -q .;
+	then
 
-echo "Iniciando commit!"
+		cd $DIRETORIO_OBSIDIAN
 
-echo "Os seguintes arquivos serao adicionados no stage:"
+		echo "Iniciando commit!"
 
-_git_status_output=$(git status)
+		echo "Os seguintes arquivos serao adicionados no stage:"
 
-echo "$_git_status_output"
+		_git_status_output=$(git status)
 
-git add .
+		echo "$_git_status_output"
 
-echo "Relizando commit..."
+		git add .
 
-_data_commit=$(date +%Y-%m-%d)
+		echo "Relizando commit..."
 
-git commit -m "$_data_commit"
+		_data_commit=$(date +%Y-%m-%d)
 
-echo "Realizando push para o repositorio..."
+		git commit -m "$_data_commit"
 
-_git_push_output=$(git push)
+		echo "Realizando push para o repositorio..."
 
-echo "$_git_push_output"
+		_git_push_output=$(git push)
 
+		echo "$_git_push_output"
+
+	else
+
+		echo "Nenhuma alteracao foi encontrada"
+
+fi
