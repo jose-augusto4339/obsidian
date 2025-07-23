@@ -73,3 +73,28 @@ Realizando push para o repositorio...
 To https://github.com/jose-augusto4339/obsidian.git
    3929bc5..efac4ee  master -> master
 
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Nenhuma alteracao foi encontrada
+[INFO] Alteracoes detectadas em '/home/aml/Documentos/obsidian'.
+[INFO] Iniciando processo de commit...
+[INFO] Os seguintes arquivos serao adicionados no stage:
+No ramo master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .obsidian/workspace.json
+	modified:   auto_commit.log
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+	Deploying Docker Containers.md
+	Working with Utility Containers & Executing Commands in Containers.md
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+[INFO] Adicionando arquivos ao stage...
